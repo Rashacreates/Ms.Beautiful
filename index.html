@@ -432,5 +432,32 @@ async function toggleMusic() {
 }
 </script>
 
+<style>
+  .sarayu-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px 12px;
+  }
+
+  .sarayu-gallery img {
+    width: min(280px, 90%);
+    height: 280px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px #0002;
+  }
+</style>
+
+<section>
+  <h2 style="text-align:center">📸 Our little memories 💗</h2>
+  <div class="sarayu-gallery">
+    <img src="sarayu1.jpg" alt="A favourite memory">
+    <img src="sarayu2.jpg" alt="A funny memory">
+    <img src="sarayu3.jpg" alt="Another favourite memory">
+  </div>
+</section>
+
 </body>
 </html>
